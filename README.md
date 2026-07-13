@@ -10,26 +10,16 @@ Redstone, Turing-bütünsel (Turing-complete) bir yapıya sahip olduğu için, m
 
 ---
 
-## ⚡ Donanım Bileşenleri & Mantık Kapıları Tablosu
-
-Dünya içerisinde inşa edilen ve pratik yapılan temel mantık kapıları ve Redstone karşılıkları:
-
-| Mantık Kapısı (Gate) | Boolean İfadesi | Minecraft Redstone Karşılığı | Görsel / Şematik Mantık |
-| :---: | :---: | :---: | :--- |
-| **NOT (Değil)** | Y = A' | Redstone Meşalesi (Torch) bloğun arkasına yerleştirilir. | Sinyali tersine çevirir. |
-| **AND (Ve)** | Y = A . B | İki adet sönük meşalenin birleştirilip tekrar ters çevrilmesi. | Sadece iki giriş de aktifken (1) çıkış verir. |
-| **OR (Veya)** | Y = A + B | İki ayrı kablonun tek bir Redstone hattında birleştirilmesi. | Girişlerden en az biri aktifse (1) çıkış verir. |
-| **XOR (Özel Veya)** | Y = A ⊕ B | Kapalı devre mantığı ile tasarlanmış özel Redstone köprüsü. | Girişler birbirinden farklı olduğunda (1 ve 0) çıkış verir. |
-
----
-
 ## 🗺️ Gelişim Yol Haritası (Roadmap)
 
 Aşağıdaki liste, temel elektrik devrelerinden tam fonksiyonel bir işlemciye (CPU) giden yoldaki gelişim aşamalarını göstermektedir:
 
-- [x] **Faz 1: Temel Kapılar (Logic Gates)**
-  - [x] NOT, AND, OR, XOR kapılarının inşası.
-  - [x] Sinyal gecikmesi (Tick/Delay) ve Repeater mantığının çözülmesi.
+- [x] **Faz 0: Kurulum ve Temel Bileşenler**
+  - [x] World creation
+  - [x] Basic components and their usage
+- [ ] **Faz 1: Temel Kapılar (Logic Gates)**
+  - [ ] NOT, AND, OR, XOR kapılarının inşası.
+  - [ ] Sinyal gecikmesi (Tick/Delay) ve Repeater mantığının çözülmesi.
 - [ ] **Faz 2: Aritmetik İşlemler (Arithmetic Circuits)**
   - [ ] **Half Adder** (Yarım Toplayıcı) tasarımı.
   - [ ] **Full Adder** (1-Bit Tam Toplayıcı) tasarımı.
