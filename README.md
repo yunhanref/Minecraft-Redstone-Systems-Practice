@@ -36,7 +36,7 @@ Aşağıdaki liste, temel elektrik devrelerinden tam fonksiyonel bir işlemciye 
 
 ## ⚙️ Dosyalar ve Çalıştırma İşlemi
 
-Kullanılan texture pack: ["https://modrinth.com/resourcepack/mattpack?version=1.21&loader=minecraft"](mattpack)
+Kullanılan texture pack: [mattpack]("https://modrinth.com/resourcepack/mattpack?version=1.21&loader=minecraft")
 Save sürümü: 1.21.11
 
 ### 1. Depoyu Klonla
