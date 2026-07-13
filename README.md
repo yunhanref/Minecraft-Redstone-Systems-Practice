@@ -44,9 +44,10 @@ Aşağıdaki liste, temel elektrik devrelerinden tam fonksiyonel bir işlemciye 
 
 ---
 
-## ⚙️ Dünyayı Klonlama ve Kurulum
+## ⚙️ Dosyalar ve Çalıştırma İşlemi
 
-Bu dünyayı kendi bilgisayarındaki Minecraft oyununa eklemek için aşağıdaki adımları uygulayabilirsin:
+Kullanılan texture pack: ["https://modrinth.com/resourcepack/mattpack?version=1.21&loader=minecraft"](mattpack)
+Save sürümü: 1.21.11
 
 ### 1. Depoyu Klonla
 Terminale aşağıdaki komutu yazarak dünyayı doğrudan Minecraft kayıt dosyalarının (`saves`) içerisine `redstone` adıyla klonlayabilirsin:
